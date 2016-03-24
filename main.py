@@ -24,7 +24,7 @@ class States():
 
 
 logger = logging.getLogger("bot")
-help_text = open('docs/help.txt').read()
+help_text = open('docs/help.txt', encoding='utf-8').read()
 changelog_text = open('docs/changelog.txt').read()
 wnl = WordNetLemmatizer()
 
@@ -161,7 +161,7 @@ if __name__ == "__main__":
 
 
     db = MongoClient(secret_settings.mongo['uri']).ruslang
-    overwrite = False
+    overwrite = len(list(db.wordlist.find()))
     if overwrite:
         db.users.drop()
         db.wordlist.drop()
