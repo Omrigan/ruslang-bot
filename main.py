@@ -161,7 +161,7 @@ if __name__ == "__main__":
 
 
     db = MongoClient(secret_settings.mongo['uri']).ruslang
-    overwrite = True
+    overwrite = False
     if overwrite:
         db.users.drop()
         db.wordlist.drop()
