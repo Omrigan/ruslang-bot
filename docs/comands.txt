@@ -1,5 +1,6 @@
-getlist - Get all words
-starttrain - Start simple train
-endtrain - End train
-setremainder - Set remainder
-removeremainder - Remove remainder
+getlist - Все слова
+starttrain - Начать тренировку
+endtrain - Окончить тренировку
+setremainder - Поставить напоминание
+removeremainder - Удалить напоминание
+help - Получить помощь

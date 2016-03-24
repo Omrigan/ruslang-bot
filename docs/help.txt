@@ -1,6 +1,7 @@
-Firstly,  add some words to wordlist. Just say me some English words
-After adding at least 8 words, you may start training with /starttrain and end with /endtrain
-While training you will be proposed with one English word and four Russian translates and you need to choose the correct one
-To erase last added word print /eraselast
-To view list of all words print /getlist
-omrigann@gmail.com
+Бот предназачен для отработки правил русского языка, конкретно - правильная постановка ударений.
+Больше информации на https://github.com/Omrigan/ruslang-bot/
+Для того, чтобы начать тренировку, напишите /starttrain
+Вам будет предложено слово, в котором нужно поставить ударение.
+В ответ нужно послать то же самое слово маленькими буквами, где большой буквой должна быть выделенна гласная, на которую нужно поставить ударение.
+
+Email: omrigann@gmail.com
